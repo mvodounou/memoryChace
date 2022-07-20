@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Abstractions\" />
+    <None Remove="Microsoft.Extensions.Caching.Memory" />
+    <None Remove="System.Runtime.Caching" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+  </ItemGroup>
+</Project>
